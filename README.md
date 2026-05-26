@@ -1,26 +1,26 @@
-# Proiect BDD – OrangeHRM Automation Testing
+# BDD Project – OrangeHRM Automation Testing
 
-## Descriere proiect
-Acest proiect reprezintă o suită de teste automate de tip **BDD (Behavior Driven Development)** pentru aplicația web **OrangeHRM**, folosind **Python, Behave și Selenium WebDriver**.
+## Project Description
+This project represents a **BDD (Behavior Driven Development)** automated test suite for the **OrangeHRM** web application, using **Python, Behave, and Selenium WebDriver**.
 
-Scopul proiectului este validarea funcționalităților principale ale aplicației OrangeHRM, precum:
-- autentificarea utilizatorilor
-- gestionarea angajaților (adăugare, căutare, editare)
-- verificarea funcționalităților din Dashboard
+The purpose of this project is to validate the main functionalities of the OrangeHRM application, such as:
+- user authentication
+- employee management (add, search, edit)
+- dashboard functionality verification
 
-Aplicația testată este versiunea demo OrangeHRM:  
+The tested application is the OrangeHRM demo version:  
 https://opensource-demo.orangehrmlive.com
 
 ---
 
-## Tipuri de teste
-- ✅ Teste funcționale automate
-- ✅ Teste BDD (Gherkin – Given / When / Then)
-- ❌ Teste negative (login cu date invalide)
+## Test Types
+- ✅ Automated functional tests
+- ✅ BDD tests (Gherkin – Given / When / Then)
+- ❌ Negative tests (login with invalid credentials)
 
 ---
 
-## Tehnologii folosite
+## Technologies Used
 - **Python**
 - **Behave**
 - **Selenium WebDriver**
@@ -30,9 +30,9 @@ https://opensource-demo.orangehrmlive.com
 
 ---
 
-## Structura proiectului
+## Project Structure
 ```
-Proiect-BDD-OrangeHRM/
+BDD-Project-OrangeHRM/
 ├── features/
 │   ├── login.feature
 │   ├── dashboard.feature
@@ -50,14 +50,15 @@ Proiect-BDD-OrangeHRM/
 └── README.md
 ```
 
+
 ---
 
-## Rulare teste
+## Test Execution
 ```bash
 behave
 ```
 
 ---
 
-## Autor
-Proiect creat în scop educațional pentru testare automată BDD.
+## Author
+Project created for educational purposes, focused on BDD automated testing.
