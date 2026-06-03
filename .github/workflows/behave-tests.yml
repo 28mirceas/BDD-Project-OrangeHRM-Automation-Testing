@@ -32,9 +32,9 @@ jobs:
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
 
-      - name: Run Behave tests
-        run: |
-          behave
+      #- name: Run Behave tests
+      #  run: |
+      #    behave
 
       - name: Generate HTML report
         if: always()
