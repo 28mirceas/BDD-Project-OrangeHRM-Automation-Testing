@@ -6,7 +6,7 @@ import time
 
 class EmployeeListPage(BasePage):
 
-    BUTTON_ADD_EMPLOYEE = (By.XPATH, "//a[text()='Add Employee']")
+    BUTTON_ADD_EMPLOYEE = (By.XPATH,"//a[contains(@href,'addEmployee')]")
     BUTTON_EMPLOYEE_LIST = (By.XPATH, "//a[text() = 'Employee List']")
     INPUT_FIRST_NAME = (By.XPATH, "//input[@placeholder='First Name']")
     INPUT_LAST_NAME = (By.XPATH, "//input[@placeholder='Last Name']")
