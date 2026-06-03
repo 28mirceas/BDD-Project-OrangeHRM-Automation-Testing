@@ -1,4 +1,5 @@
 # BDD OrangeHRM Project – Test Automation with Behave & Selenium
+![CI](https://github.com/28mirceas/BDD-Project-OrangeHRM-Automation-Testing/actions/workflows/behave-tests.yml/badge.svg)
 
 ## Description
 
